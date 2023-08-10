@@ -1,0 +1,62 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .con {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.container .form {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  padding: 30px 40px 80px 40px;
+  border: 1px rgba(0, 0, 0, 0.336) solid;
+  gap: 30px;
+  min-height: 400px;
+  width: 400px;
+}
+
+.container .form h1 {
+  margin: 0;
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .warning {
+  animation: flicking 2s 500ms infinite;
+  min-height: 40px;
+  background-color: rgba(236, 236, 236, 0.538);
+  border: rgba(36, 36, 36, 0.98) solid 1px;
+  border-radius: 4px;
+  color: #232323;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@keyframes flicking {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 60%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.container .warning p {
+  margin: 0;
+}

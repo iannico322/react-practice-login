@@ -1,0 +1,12 @@
+.main{
+    min-height: 100vw;
+    width: 100vw;
+    .room-con{
+        margin-top: 100px;
+        min-height: 100px ;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+}

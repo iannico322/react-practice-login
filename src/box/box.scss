@@ -1,0 +1,49 @@
+.box{
+    height: 200px;
+    min-width: 30%;
+    max-width: 500px;
+    background-color: rgb(58, 58, 58);
+    border-radius: 20px;
+    .bg{
+        border-radius: 20px;
+        height: 60%;
+        background-color: rgb(255, 255, 255);
+        font-size: 100px;
+        border: 1px solid rgba(0, 0, 0, 0.406);
+        overflow: hidden;
+        color: rgb(87, 87, 87);
+        
+    }
+    .text{
+        height:40% ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        gap: 20px;
+        font-size: larger;
+        color: white;
+        h1{
+            font-size: medium;
+            margin-left: 20px;
+        }
+       
+        p{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: small;
+            color: rgb(46, 45, 45);
+            
+            height: 40px;
+            width: 40px;
+            margin: 0;
+           
+            
+            border-radius: 1000px;
+            background-color: rgb(255, 255, 255);
+            margin-right: 20px;
+        }
+        
+    }
+}
