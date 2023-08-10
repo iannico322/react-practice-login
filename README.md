@@ -2,4 +2,7 @@
 
 
 ### Make a copy of this react project pra ma try ninyo
-##
+## git clone https://github.com/iannico322/react-practice-login.git
+## cd react-practice-login
+## npm install
+## npm start
